@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Products - ZMRJJ Clothing</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: radial-gradient(#fff,#808080);;">
+	
+	<div class="navbar">
+		<nav>
+			<ul id = "MenuItems">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="products.html">PRODUCTS</a></li>
+				<li><a href="aboutus.html">ABOUT</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="account.html">ACCOUNT</a></li>
+			</ul>
+		</nav>
+		<a href="cart.html"><img src="cart.png" width="55px" height="60px" class = "cart-icon"></a>
+		<img src="image/menu.png" class = "menu-icon"onclick="menutoggle()">
+	</div>
+
+
+<!---------contact us--------->
+
+<div class="container">
+        <header>
+            <h1>Contact Us</h1>
+            <p>If you have any question or problem kindly fill up the form and submit to us. <br> We are glad to help you out</p>
+        </header>
+        <div class="content">
+            <div class="content-form">
+                <section>
+                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                    <h2>address</h2>
+                    <p>
+                        STI College Las Pinas, <br> 411 Alabang Zapote Road, <br> Las Pinas, Metro Manila
+                    </p>
+                </section>
+
+                <section>
+                    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                    <h2>Phone</h2>
+                    <p>0917-567-4098</p>
+                </section>
+
+                <section>
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    <h2>E-mail</h2>
+                    <p>khufrauser88@gmail.com</p>
+                </section>
+            </div>
+        </div>
+
+      <form>
+        <div class="form">
+            <div class="right">
+              <div class="contact-form">
+                  <input type="text" required>
+                  <span>Full Name</span>
+              </div>
+  
+              <div class="contact-form">
+                  <input type="E-mail" required>
+                  <span>E-mail Address</span>
+              </div>
+              <div class="contact-form">
+                  <textarea name="text">
+                    
+                  </textarea>
+                  <span> Type your Concern....</span>
+              </div>
+  
+              <div class="contact-form">
+                  <input type="submit" name="submit">
+              </div>
+              </div>
+            </div>
+          </div>
+    </form>
+        <div class="media">
+           <a href="https://www.facebook.com/"><li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li></a>
+            <a href="https://www.instagram.com/?hl=en"><li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+            <li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li>
+        </div>
+        <div class="empty">
+
+        </div>
+    </div>    
+
+
+<!---------footer-------->
+
+<div class = "footer">
+
+			<div class = "container">
+
+				<div class = "row">
+
+					<div class = "footer-col-1">
+
+						<h3>Download Our App</h3>
+						<p>Download App for Android and Ios Mobile Phone</p>
+						<div class = "app-logo">
+							<img src = "image/apple.png">
+							<img src = "image/playstore.png">
+						</div>
+
+					</div>
+						<div class = "footer-col-2">
+
+						<img src ="image/logo.jpg">
+						<p>Our purpose is to make people appreciate our own local design</p>
+
+					</div>
+					<div class = "footer-col-3">
+
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Us</li>
+						</ul>
+
+					</div>
+					<div class = "footer-col-4">
+
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Facebook</li>
+							<li>Instagram</li>
+							<li>Shopee</li>
+							<li>Youtube</li>
+						</ul>
+
+					</div>
+				</div>
+  				<hr>
+  				<p class ="Copyright">Copyright 2022 - ZMRJJ CLOTHING</p>
+			</div>
+
+		</div>	
+
+
+<script>
+	
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else 
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+
+</script>
+
+
+</body>
